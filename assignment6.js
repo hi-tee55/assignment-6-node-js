@@ -114,5 +114,24 @@ app.get("drugs/count-analgesics", (req, res) => {
 });
 
 // Push your complete Node.js project (server file + package.json) to GitHub.
+// Ensure you have initialized a Git repository in your project folder
+// Run the following commands in your terminal:
 
+// Initialize Git repository
+// git init
+
+// Add all files to the staging area
+// git add .
+
+// Commit the changes
+// git commit -m "Initial commit for Node.js drug API project"
+
+// Create a new repository on GitHub (e.g., "node-drug-api")
+
+// Link the local repository to the GitHub repository
+// git remote add origin https://github.com/your-username/node-drug-api.git
+
+// Push the code to the GitHub repository
+// git branch -M main
+// git push -u origin main
 // Share the GitHub repository URL when you are done.
