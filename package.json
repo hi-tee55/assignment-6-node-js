@@ -1,0 +1,28 @@
+{
+  "name": "node-fundamental",
+  "version": "1.0.0",
+  "description": "Assignment 6",
+  "main": "assignment6.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node assignment6.js",
+    "dev": "nodemon assignment6.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hi-tee55/assignment-6-node-js.git"
+  },
+  "author": "obateru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hi-tee55/assignment-6-node-js/issues"
+  },
+  "homepage": "https://github.com/hi-tee55/assignment-6-node-js#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
