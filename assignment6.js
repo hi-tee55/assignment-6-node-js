@@ -15,8 +15,13 @@
 // Test all your APIs using Postman.
 
 // The Drugs Array
+import express from 'express';
+const app = express();
+const POST = process.env.port || 7000;
 
+app.listen(POST, () => { console.log(`Server is running on port ${POST}`) });
 
+app.use(express.json());
 
 const drugs = [
     { id: 1, name: "Amoxicillin", category: "Antibiotic", dosageMg: 500, isPrescriptionOnly: true, stock: 120, manufacturer: "Pfizer" },
@@ -41,11 +46,6 @@ const drugs = [
     { id: 20, name: "Folic Acid", category: "Supplement", dosageMg: 5, isPrescriptionOnly: false, stock: 250, manufacturer: "Nature’s Bounty" }
 ];
 
-import express from 'express';
-const app = express();
-const POST = process.env.port || 7000;
-
-app.listen(POST, () => { console.log(`Server is running on port ${POST}`) });
 
 // 1. GET /drugs/antibiotics
 // Return all drugs where category is "Antibiotic".
